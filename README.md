@@ -1,5 +1,18 @@
 # BlogPessoal
 
+<ul>
+  <h3>Linguagem usada:</h3>
+  <li>Java</li><br>
+  <h3>Técnologias usadas:</h3>
+  <li>SpringFramework</li>
+  <li>SQL</li>
+  <li>Swagger</li>
+  <li>Hibernate</li>
+  <li>JUnit</li>
+  <hr>
+  
+</ul>
+
 Olá, esse é o meu Blog pessoal!
 pretendo escrever nele e deixar registrado tudo do meu interesse, junto com feedback e comentários de qualquer usuário que se cadastrar.
 
