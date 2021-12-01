@@ -1,8 +1,8 @@
 #img-bg {
-  background-image: url("../../assets/img/chrome_G0wWstw5Y2.png");
+  background-image: url("../../assets/img/chrome_aurJWtP3aI.jpg");
 
-  min-height: 912px;
-  max-width: 100%;
+  min-height: 929px;
+
 
 
   background-position: center;
@@ -12,7 +12,7 @@
 
 }
 
-#entrarMenu {
+#cadastrarMenu {
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.50);
   backdrop-filter: blur(5px);
@@ -23,3 +23,4 @@
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
