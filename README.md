@@ -1,7 +1,7 @@
 # BlogPessoal
 
 <ul>
-  <h3>Linguagem usada:</h3>
+  <h3>Linguagens usadas:</h3>
   <li>Java</li>
   <li>JavaScript</li>
   <li>TypeScript</li>
