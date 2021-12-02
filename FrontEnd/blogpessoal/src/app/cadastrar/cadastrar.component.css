@@ -10,6 +10,9 @@
   background-size: cover;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 
+      /*Coisas da animacao*/
+      transform: translateX(-500px);
+
 }
 
 #cadastrarMenu {
@@ -28,6 +31,14 @@
   overflow-y: hidden;
 }
 
+#img-bg.animar {
+  animation-name: slide;
+  animation-duration: .3s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
 #cadastrarMenu.animar{
   animation-name: slide;
   animation-duration: .3s;
@@ -44,6 +55,15 @@
   to {
     transform: translateX(0);
     opacity: 1;
+  }
+
+}
+
+
+@keyframes slideBG {
+
+  to {
+   transform: translateX(0);
   }
 
 }

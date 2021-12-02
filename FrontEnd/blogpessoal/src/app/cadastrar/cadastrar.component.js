@@ -1,3 +1,4 @@
 function ativar() {
-  entrarMenu.classList.toggle('animar');
+  cadastrarMenu.classList.toggle('animar');
+  img-bg.classList.toggle('animar');
 }
