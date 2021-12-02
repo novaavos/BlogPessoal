@@ -17,9 +17,33 @@
   background-color: rgba(0, 0, 0, 0.50);
   backdrop-filter: blur(5px);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+  /*Coisas da animacao*/
+  opacity: 0;
+  transform: translateX(-50px);
 }
 
 #teste {
   overflow-x: hidden;
   overflow-y: hidden;
+}
+
+#entrarMenu.animar{
+  animation-name: slide;
+  animation-duration: .3s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
 }
