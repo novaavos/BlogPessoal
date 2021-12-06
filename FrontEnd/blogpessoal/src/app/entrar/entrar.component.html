@@ -11,6 +11,7 @@
           <div class="form-group">
             <label for="usuario">Usuário</label>
             <input
+              [(ngModel)]='userLogin.usuario'
               type="text"
               class="form-control"
               name="usuario"
@@ -22,6 +23,7 @@
           <div class="form-group">
             <label for="senha">Senha</label>
             <input
+              [(ngModel)]='userLogin.senha'
               type="password"
               class="form-control"
               name="senha"
@@ -31,7 +33,7 @@
           </div>
 
           <div class="d-flex justify-content-center">
-            <button type="button" class="btn btn-outline-light mt-1">
+            <button type="button" class="btn btn-outline-light mt-1" (click)="entrar()">
               Logar
             </button>
           </div>
