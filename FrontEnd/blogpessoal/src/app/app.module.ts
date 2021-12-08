@@ -12,6 +12,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
+import { TemaComponent } from './tema/tema.component';
 
 
 
@@ -23,7 +24,8 @@ import { AppRoutingModule } from './app-routing.module';
     EntrarComponent,
     CadastrarComponent,
     SidebarComponent,
-    InicioComponent
+    InicioComponent,
+    TemaComponent
   ],
   imports: [
     BrowserModule,
