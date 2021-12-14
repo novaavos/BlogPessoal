@@ -1,11 +1,9 @@
-<div class="conteiner-fluid bg-secondary text-light" id="teste">
+<div class="container my-5">
   <div class="row">
-    <div class="col-md-6 animar" id="img-bg" onload="ativar()"></div>
-
-    <div class="col-md-6">
+    <div class="col-md-12">
+      <h1 class="text-center">Atualizar meu usuário</h1>
       <div class="row d-flex justify-content-center m-5 animar" id="cadastrarMenu" onload="ativar()">
         <div class="col-md-10">
-          <h1 class="text-center my-3">Cadastro</h1>
 
           <div class="form-group">
             <label for="nome">Nome</label>
@@ -80,8 +78,8 @@
             <button type="submit" class="btn btn-outline-danger my-3 mr-5" routerLink="/inicio">
               Cancelar
             </button>
-            <button type="submit" class="btn btn-outline-success my-3" (click)="cadastrar()">
-              Cadastrar
+            <button type="submit" class="btn btn-outline-success my-3" (click)="atualizar()">
+              Atualizar
             </button>
           </div>
         </div>
